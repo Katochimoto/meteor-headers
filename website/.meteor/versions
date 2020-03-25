@@ -21,7 +21,7 @@ ecmascript@0.1.6
 ecmascript-runtime@0.2.6
 ejson@1.0.7
 fastclick@1.0.7
-gadicohen:headers@0.0.31
+rikishi:headers@0.0.32
 gadicohen:syntaxhighlighter@3.0.83_19
 geojson-utils@1.0.4
 html-tools@1.0.5

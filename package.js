@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'gadicohen:headers',
+  name: 'rikishi:headers',
   summary: 'Access HTTP headers on both server and client',
-  version: "0.0.31",
+  version: "0.0.32",
   git: 'https://github.com/gadicc/meteor-headers.git'
 });
 
@@ -23,7 +23,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use(['tinytest', 'gadicohen:headers']);
+  api.use(['tinytest', 'rikishi:headers']);
   api.addFiles('tests/tests-client.js', 'client');
   api.addFiles('tests/tests-server.js', 'server');
 });
